@@ -1,0 +1,151 @@
+html{
+	box-sizing: border-box
+}
+*, *:before, *after{
+	box-sizing: inherit;
+}
+.row:before, .row:after{
+	content: "";
+	display: table;
+}
+.row:after{
+	clear: both;
+}
+.row{
+	*zoom: 1;
+}
+.container{
+	max-width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5,
+.col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5,
+.col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10{
+  float: left;
+}
+@media(max-width: 480px){
+  .col-sm-1{
+    width: 10%;
+  }
+  .col-sm-2{
+    width: 20%;
+  }
+  .col-sm-3{
+    width: 30%;
+  }
+  .col-sm-4{
+    width: 40%;
+  }
+  .col-sm-5{
+    width: 50%;
+  }
+  .col-sm-6{
+    width: 60%;
+  }
+  .col-sm-7{
+    width: 70%;
+  }
+  .col-sm-8{
+    width: 80%;
+  }
+  .col-sm-9{
+    width: 90%;
+  }
+  .col-sm-10{
+    width: 100%;
+  }
+}
+
+@media(min-width: 481px){
+  .col-md-1{
+    width: 10%;
+  }
+  .col-md-2{
+    width: 20%;
+  }
+  .col-md-offset-3{
+    margin-left: 30%;
+  }
+  .col-md-3{
+    width: 30%;
+  }
+  .col-md-offset-4{
+    margin-left: 40%;
+  }
+  .col-md-4{
+    width: 40%;
+  }
+  .col-md-5{
+    width: 50%;
+  }
+  .col-md-6{
+    width: 60%;
+  }
+  .col-md-7{
+    width: 70%;
+  }
+  .col-md-8{
+    width: 80%;
+  }
+  .col-md-9{
+    width: 90%;
+  }
+  .col-md-10{
+    width: 100%;
+  }
+}
+body{
+  background-color: black;
+}
+.navbar{
+  display: inline-block;
+  position: fixed;
+}
+.navbar li{
+  float: right;
+  padding: 5px 20px 5px 20px;
+  list-style-type: none;
+  border: solid 1px white;
+  color: white;
+  text-decoration: none;
+  font-family: "Megrim";
+  background-color: black;
+}
+.block1{
+  text-align: center;
+}
+.block1 img{
+  width: 100px;
+  margin-top: 70px;
+}
+h1{
+  font-family: "Monoton";
+  color: cyan;
+  padding-left: 10%;
+  border-top: solid 1px white;
+}
+.block2{
+  text-align: center;
+}
+.block2 img{
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+.about{
+  color:white;
+}
+h2{
+  font-family: "Megrim";
+  color: white;
+}
+p{
+  line-height: 25px;
+  color: white;
+  font-family: "Monoton";
+}
+section{
+  border-top: solid 1px white;
+}
